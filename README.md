@@ -24,7 +24,7 @@ The package version you need to install are denoted in install_requirements.sh.
 
 ### The main steps for code reproduction on your own device:
 
-- step0: Obtain the artifact, extract the archive files `git clone https://github.com/HaibaraAiChan/Betty.git`.
+- step0: Obtain the artifact, extract the archive files `git clone https://github.com/zhanglizhi15/GNNAnts.git`
 - step1: generate some full batch data for later experiments, (the generated data will be stored in ~/**dataset/gendata/multi_layers_full_graph**). `cd /GNNANTS/pytorch/gendata/`**./gen_data.sh**
 - step2: replicate these experiments in **experiments/**
   `cd experiments/table*/` to test the experiments follow the instruction in `README.md` in corresponding figure folder.
