@@ -1,0 +1,6 @@
+- We implement table 4 to denote the peak GPU memory consumption of full-batch, mini-batch, Betty and GNNAnts micro batch training.  And table 4  indicates GNNAnts break the memory wall.
+- We implement peak CPU memory consumption estimation during the workflow of mini-batch training, Betty and GNNAnts, shown in table5 and the memory increased during partition in table 6.
+- We use table 7 to denote the tendency of peak memory consumption and training time per epoch as the number of micro batches and mini-batch increases.
+- We use table 9 to denote the tendency of peak memory consumption and training time per epoch as the type of GNN model changes.
+- We use table 11 to  show the training efficiency of Topox and reusing components in GNNNAnts compared to Betty.
+- We use figure8 to show that the model convergence is not impacted by GNNAnts and can achieve convergence accuracy similar to full-batch training which is proved by the Betty.
