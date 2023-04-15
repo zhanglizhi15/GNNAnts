@@ -351,7 +351,7 @@ def load_ogbn_dataset(name,  args):
 	if name not in ["ogbn-products", "ogbn-arxiv","ogbn-mag","ogbn-papers100M"]:
 		raise RuntimeError("Dataset {} is not supported".format(name))
 	home_dir = os.getenv("HOME")
-	dataset = DglNodePropPredDataset(name=name, root=os.path.join(home_dir, "Betty-master/dataset/graph_partition_multi_layers/benchmark_full_graph", "dataset"))
+	dataset = DglNodePropPredDataset(name=name, root=os.path.join("../../dataset/", "origindata"))
 	
 	# dataset = DglNodePropPredDataset(name=name, root = args.root)
 	splitted_idx = dataset.get_idx_split()
